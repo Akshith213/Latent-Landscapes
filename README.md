@@ -55,8 +55,45 @@ Welcome to the Image Embeddings Exploration and Style Manipulation Using Diffusi
 
 ### 📈 Results
 - **Principal Component Analysis:** The first 100 principal components captured the majority of the variance in the data.
-- ![Image Description](./images/image_name.png)
-- **Clustering and Visualization:** Achieved a silhouette score indicating well-defined and separated clusters.
+  
+  <img src="images/Screenshot 2024-10-02 at 8.05.17 PM.png" width="700" height="350">
+- **Image Generation from Principal Components:** Manipulating individual principal components resulted in images with varying facial expressions and styles.
+
+  <img src="images/Screenshot 2024-10-02 at 8.05.29 PM.png" width="700" height="350">
+- **Clustering and Visualization**: Reduced dimensioanlity and performed clustering for data.
+
+  <img src="images/Screenshot 2024-10-02 at 8.05.41 PM.png" width="700" height="350">
+
+- **Generated Images for Clusters**:
+- ***Cluster 1:***
+
+  <img src="images/Screenshot 2024-10-03 at 6.14.04 PM.png" width="1000" height="350">
+
+- ***Cluster 2:***
+
+  <img src="images/Screenshot 2024-10-03 at 6.14.12 PM.png" width="1000" height="350">
+
+- ***Cluster 3:***
+
+  <img src="images/Screenshot 2024-10-03 at 6.14.20 PM.png" width="1000" height="350">
+
+- ***Cluster 4:***
+
+  <img src="images/Screenshot 2024-10-03 at 6.14.29 PM.png" width="1000" height="350">
+
+- **Style Transfer with Principal Components:** Style Manipulation: Adjusting the scale of principal components altered the style and expressions in the images
+- ***Style Transfer Using PC1 at Scale -1:***
+
+  <img src="images/Screenshot 2024-10-03 at 6.14.50 PM.png" width="1000" height="350">
+  
+- ***Style Transfer Using PC1 at Scale 0:***
+
+  <img src="images/Screenshot 2024-10-03 at 6.14.56 PM.png" width="1000" height="350">
+  
+- ***Style Transfer Using PC1 at Scale 1:***
+
+  <img src="images/Screenshot 2024-10-03 at 6.15.03 PM.png" width="1000" height="350">
+
 
 ### 💡 Conclusions
 - **Dimensionality Reduction:** PCA effectively reduced the high-dimensional embeddings while retaining most of the variance.
